@@ -1,0 +1,159 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="styles.css"></head>
+<header>
+<h1 id="title"> Job Market Survey Form </h1>
+</header>
+
+
+<body>
+<p id="description"> Tell us how to improve the job applying method</p>
+
+<form id="survey-form">
+
+<label for="name" id="name-label">Name </label>
+
+<input id="name" type="text" name="name" placeholder="Enter your first name" required></input>
+
+<br>
+
+<label for="email" id="email-label"> Email </label> 
+
+<input id="email" type="email" name="email" placeholder="Enter your email" required></input>
+
+<br>
+
+<label for="number" id="number-label"> Age </label>
+
+<input id="number" type="number" name="number" placeholder="Age" min="14" max="65" required></input>
+
+<br>
+
+<label for="dropdown" id="role" placeholder="Select your current role">Which option best describes your current role?</label>
+
+<select id="dropdown">
+  <option value="Student"> Student </option>
+  <option value="Part-time worker"> Part-time worker </option>
+   <option value="Employed"> Employed </option>
+   <option value="Unemployed"> Unemployed </option>
+   <option value="Other"> Other </option>
+</select>
+
+<br>
+<br>
+
+<label for="annoying_tasks" id="annoying_tasks"> <b> What annoys you the most when applying for a job? </b> </label>
+
+<br>
+
+<input id="annoying_tasks" type="radio" id="filling required info that is already provided in the CV" name="annoying_tasks" value="filling required info that is already provided in the CV"> 
+<label for="annoying_tasks">  Filling required info that is already provided in the CV </label>
+
+<br>
+<br>
+
+<input id="annoying_tasks" type="radio" id="Having to create another account in order to apply for the job" name="annoying_tasks" value="Having to create another account in order to apply for the job"> 
+<label for="annoying_tasks">  Having to create another account in order to apply for the job</label>
+
+<br>
+<br>
+
+<input id="annoying_tasks" type="radio" id="writing a cover letter" name="annoying_tasks" value="writing a cover letter"> 
+<label for="annoying_tasks"> Writing a cover letter </label>
+
+<br>
+<br>
+
+
+<input id="annoying_tasks" type="radio" id="all the options" name="annoying_tasks" value="filling required info that is already provided in the CV"> 
+<label for="annoying_tasks"> All the options </label>
+
+<br>
+<br>
+
+<label for="improvements"> <b>What would you like to see improved? (Check all that apply) </b> </label>
+
+<br>
+
+<input id="checkbox" type="checkbox" name="improvements" value="easy_apply">
+<label for="checkbox"> Easy and fast apply </label> 
+
+<br>
+<br>
+
+<input id="checkbox" type="checkbox" name="improvements" value="easy_apply">
+<label for="checkbox"> Apply only on one website, <b>no redirections</b> </label>
+
+<br>
+<br>
+
+<label id="textarea"> Additional comments or suggestions? </label>
+<br>
+
+<textarea id="textarea" name="instructions" rows="20" cols="40">
+
+</textarea>
+
+<br>
+<br>
+
+<input id="submit" type="submit" value="Submit your answers">
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+  font-family: "Poppins";
+  line-height: 1.4;  background-color: #ed872d; 
+  width: 600px;
+  margin: auto;
+  color: white;
+}
+
+form { 
+  background: #1b1b32;
+  paddling: 3rem 2.5rem;
+  border-radius: rem;
+  width: 500px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white
+}
+
+p { 
+  text-align: center;
+  color: white
+}
+
+** end of undefined **
+
